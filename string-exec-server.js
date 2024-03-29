@@ -23,18 +23,18 @@ app.post("/str-exec", (req,res)=> {
 
 
 app.listen(8080);
-/*
-var body = {
-test: '<script>alert("haxor")</script>'
-}
-
-fetch("/str-exec", {
-  method: "POST",
- headers: {
-      "Content-Type": "application/json",
-      // 'Content-Type': 'application/x-www-form-urlencoded',
-    },
-	body: JSON.stringify(body),
-})
-
-*/
+//
+// var body = {
+// test: '<script>alert("haxor")</script>'
+// }
+//
+// fetch("/str-exec", {
+//   method: "POST",
+//  headers: {
+//       "Content-Type": "application/json",
+//       // 'Content-Type': 'application/x-www-form-urlencoded',
+//     },
+// 	body: JSON.stringify(body),
+// })
+//
+//

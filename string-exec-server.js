@@ -24,7 +24,7 @@ app.post("/str-exec", (req,res)=> {
 
 app.listen(8080);
 //
-// var body = {
+//  var body = {
 // test: '<script>alert("haxor")</script>'
 // }
 //
@@ -37,4 +37,4 @@ app.listen(8080);
 // 	body: JSON.stringify(body),
 // })
 //
-//
+
